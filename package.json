@@ -1,0 +1,40 @@
+{
+ "name": "taskflow",
+ "version": "0.0.0",
+ "scripts": {
+ "ng": "ng",
+ "start": "ng serve",
+ "build": "ng build",
+ "test": "vitest run",
+ "test:watch": "vitest",
+ "watch": "ng build --watch --configuration development"
+ },
+ "private": true,
+ "packageManager": "npm@11.6.2",
+ "dependencies": {
+ "@angular/common": "^21.2.0",
+ "@angular/compiler": "^21.2.0",
+ "@angular/core": "^21.2.0",
+ "@angular/forms": "^21.2.0",
+ "@angular/platform-browser": "^21.2.0",
+ "@angular/platform-browser-dynamic": "^21.2.10",
+ "@angular/router": "^21.2.0",
+ "rxjs": "~7.8.0",
+ "tslib": "^2.3.0",
+ "zone.js": "^0.16.1"
+ },
+ "devDependencies": {
+ "@analogjs/vite-plugin-angular": "^2.7.1",
+ "@angular/build": "^21.2.8",
+ "@angular/cli": "^21.2.8",
+ "@angular/compiler-cli": "^21.2.0",
+ "@testing-library/angular": "^19.4.2",
+ "@testing-library/dom": "^10.4.1",
+ "@testing-library/user-event": "^14.6.7",
+ "@types/node": "^25.6.0",
+ "jsdom": "^29.1.1",
+ "prettier": "^3.8.1",
+ "typescript": "~5.9.2",
+ "vitest": "^4.1.11"
+ }
+}

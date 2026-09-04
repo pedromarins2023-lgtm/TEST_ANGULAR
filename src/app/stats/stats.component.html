@@ -1,0 +1,25 @@
+<section class="stats-page">
+  <header class="stats-header">
+    <h1>Estatísticas das Tarefas</h1>
+    <p>Veja as estatísticas de suas tarefas.</p>
+  </header>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <strong>{{ created() }}</strong>
+      <span>Tarefas Criadas</span>
+    </div>
+    <div class="stat-card">
+      <strong>{{ deleted() }}</strong>
+      <span>Tarefas Excluídas</span>
+    </div>
+    <div class="stat-card">
+      <strong>{{ completed() }}</strong>
+      <span>Tarefas Concluídas</span>
+    </div>
+  </div>
+
+  <div class="actions">
+    <a routerLink="/tasks" class="btn">Voltar às Tarefas</a>
+  </div>
+</section>
