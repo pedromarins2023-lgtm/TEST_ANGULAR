@@ -5,4 +5,5 @@ import {
   BrowserTestingModule,
   platformBrowserTesting,
 } from '@angular/platform-browser/testing';
+import '@testing-library/jest-dom/vitest';
 getTestBed().initTestEnvironment(BrowserTestingModule, platformBrowserTesting());
